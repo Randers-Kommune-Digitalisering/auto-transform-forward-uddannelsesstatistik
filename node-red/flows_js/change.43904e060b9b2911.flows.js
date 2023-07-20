@@ -1,7 +1,7 @@
 const Node = {
   "id": "43904e060b9b2911",
   "type": "change",
-  "z": "971a7ae6df987a48",
+  "z": "e665b72561455937",
   "d": true,
   "name": "Forbered API kald",
   "rules": [
@@ -18,12 +18,12 @@ const Node = {
   "from": "",
   "to": "",
   "reg": false,
-  "x": 450,
-  "y": 300,
+  "x": 510,
+  "y": 160,
   "wires": [
     []
   ],
-  "_order": 7
+  "_order": 5
 }
 
 module.exports = Node;

@@ -1,7 +1,7 @@
 const Node = {
   "id": "fbf4f1d4ceab78a6",
   "type": "http request",
-  "z": "971a7ae6df987a48",
+  "z": "e665b72561455937",
   "name": "",
   "method": "POST",
   "ret": "txt",
@@ -27,14 +27,12 @@ const Node = {
       "valueValue": "api.cookie"
     }
   ],
-  "x": 1150,
-  "y": 260,
+  "x": 910,
+  "y": 120,
   "wires": [
-    [
-      "ef7dab39a12450fb"
-    ]
+    []
   ],
-  "_order": 4
+  "_order": 3
 }
 
 module.exports = Node;
