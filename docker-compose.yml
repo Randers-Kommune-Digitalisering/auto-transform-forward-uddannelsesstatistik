@@ -16,6 +16,8 @@ services:
       
       # Miljøvariablen FLOWS fortæller Node-RED IDEet hvilket flow.json den skal åbne og gemme ændringer i ved deploy.
       FLOWS: "/data/flows.json"
+      API_KEY: ${UDDANNELSESSTATISTIK_API_KEY}
+      API_URL: ${UDDANNELSESSTATISTIK_API_URL}
       
       # Bind mount fra codespace til den kørende containers /data.
       # Gør det muligt at deploye flowkode direkte fra IDE og bruge git til at comitte ændringerne til repo.
