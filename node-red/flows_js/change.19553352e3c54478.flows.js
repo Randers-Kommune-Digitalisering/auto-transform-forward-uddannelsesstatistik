@@ -33,11 +33,11 @@ const Node = {
   "from": "",
   "to": "",
   "reg": false,
-  "x": 510,
-  "y": 340,
+  "x": 210,
+  "y": 260,
   "wires": [
     [
-      "ef7dab39a12450fb"
+      "35494505e54fccf8"
     ]
   ],
   "_order": 2
