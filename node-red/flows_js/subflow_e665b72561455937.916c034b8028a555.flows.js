@@ -3,11 +3,12 @@ const Node = {
   "type": "subflow:e665b72561455937",
   "z": "971a7ae6df987a48",
   "name": "Uddannelsesstatistik \\n Connector",
-  "x": 740,
+  "x": 540,
   "y": 160,
   "wires": [
     [
-      "ef7dab39a12450fb"
+      "ef7dab39a12450fb",
+      "343f2ed017ceea0b"
     ]
   ],
   "_order": 10
