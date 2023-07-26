@@ -4,10 +4,10 @@ const Node = {
   "z": "971a7ae6df987a48",
   "name": "Konvertér",
   "info": "",
-  "x": 580,
-  "y": 620,
+  "x": 610,
+  "y": 580,
   "wires": [],
-  "_order": 31
+  "_order": 30
 }
 
 module.exports = Node;

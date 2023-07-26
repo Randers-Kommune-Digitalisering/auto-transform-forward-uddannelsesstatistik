@@ -4,10 +4,10 @@ const Node = {
   "z": "971a7ae6df987a48",
   "name": "Dynamisk konvertering af kolonner",
   "info": "",
-  "x": 260,
-  "y": 340,
+  "x": 290,
+  "y": 300,
   "wires": [],
-  "_order": 24
+  "_order": 23
 }
 
 module.exports = Node;

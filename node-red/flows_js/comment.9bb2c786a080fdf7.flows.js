@@ -4,10 +4,10 @@ const Node = {
   "z": "971a7ae6df987a48",
   "name": "Skab CSV til XLSX konvertering",
   "info": "",
-  "x": 250,
-  "y": 620,
+  "x": 280,
+  "y": 580,
   "wires": [],
-  "_order": 30
+  "_order": 29
 }
 
 module.exports = Node;

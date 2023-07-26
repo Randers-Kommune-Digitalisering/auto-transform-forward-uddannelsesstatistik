@@ -9,14 +9,14 @@ const Node = {
   "createDir": false,
   "overwriteFile": "true",
   "encoding": "none",
-  "x": 310,
-  "y": 660,
+  "x": 340,
+  "y": 620,
   "wires": [
     [
       "4b1e76de258feceb"
     ]
   ],
-  "_order": 28
+  "_order": 27
 }
 
 module.exports = Node;

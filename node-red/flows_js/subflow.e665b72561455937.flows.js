@@ -18,10 +18,10 @@ const Node = {
   "out": [
     {
       "x": 1040,
-      "y": 220,
+      "y": 120,
       "wires": [
         {
-          "id": "b4cf5c275d482cee",
+          "id": "fbf4f1d4ceab78a6",
           "port": 0
         }
       ]
@@ -30,6 +30,16 @@ const Node = {
   "env": [],
   "meta": {},
   "color": "#DDAA99",
+  "status": {
+    "x": 1040,
+    "y": 200,
+    "wires": [
+      {
+        "id": "d4f1983b3d69d25b",
+        "port": 0
+      }
+    ]
+  },
   "_order": 1
 }
 

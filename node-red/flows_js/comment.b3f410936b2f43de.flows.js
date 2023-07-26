@@ -4,10 +4,10 @@ const Node = {
   "z": "971a7ae6df987a48",
   "name": "OBS: Flow virker KUN ved kald af FLAD datastruktur (indlejret = false)",
   "info": "",
-  "x": 370,
-  "y": 100,
+  "x": 400,
+  "y": 60,
   "wires": [],
-  "_order": 32
+  "_order": 31
 }
 
 module.exports = Node;

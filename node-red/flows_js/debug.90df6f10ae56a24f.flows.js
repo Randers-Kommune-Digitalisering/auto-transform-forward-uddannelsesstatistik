@@ -3,7 +3,7 @@ const Node = {
   "type": "debug",
   "z": "971a7ae6df987a48",
   "name": "CSV",
-  "active": false,
+  "active": true,
   "tosidebar": true,
   "console": false,
   "tostatus": false,
@@ -11,10 +11,10 @@ const Node = {
   "targetType": "msg",
   "statusVal": "",
   "statusType": "auto",
-  "x": 170,
-  "y": 700,
+  "x": 200,
+  "y": 660,
   "wires": [],
-  "_order": 34
+  "_order": 33
 }
 
 module.exports = Node;
