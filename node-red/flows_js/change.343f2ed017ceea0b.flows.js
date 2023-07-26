@@ -2,6 +2,7 @@ const Node = {
   "id": "343f2ed017ceea0b",
   "type": "change",
   "z": "971a7ae6df987a48",
+  "d": true,
   "name": "Skab nye kolonnenavne",
   "rules": [
     {
@@ -17,15 +18,14 @@ const Node = {
   "from": "",
   "to": "",
   "reg": false,
-  "x": 470,
-  "y": 320,
+  "x": 230,
+  "y": 380,
   "wires": [
     [
-      "3f1fbebfb0adc88c",
-      "cdd85ad51debab44"
+      "3f1fbebfb0adc88c"
     ]
   ],
-  "_order": 14
+  "_order": 21
 }
 
 module.exports = Node;

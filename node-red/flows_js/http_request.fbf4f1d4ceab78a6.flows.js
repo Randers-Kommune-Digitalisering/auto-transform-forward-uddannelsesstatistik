@@ -13,26 +13,15 @@ const Node = {
   "insecureHTTPParser": false,
   "authType": "",
   "senderr": false,
-  "headers": [
-    {
-      "keyType": "other",
-      "keyValue": "Authorization",
-      "valueType": "other",
-      "valueValue": "Bearer"
-    },
-    {
-      "keyType": "other",
-      "keyValue": "Cookie",
-      "valueType": "msg",
-      "valueValue": "api.cookie"
-    }
-  ],
+  "headers": [],
   "x": 910,
   "y": 120,
   "wires": [
-    []
+    [
+      "519f1c9f998414aa"
+    ]
   ],
-  "_order": 3
+  "_order": 8
 }
 
 module.exports = Node;

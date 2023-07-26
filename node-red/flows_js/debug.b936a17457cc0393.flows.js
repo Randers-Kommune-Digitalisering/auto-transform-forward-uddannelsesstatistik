@@ -1,20 +1,20 @@
 const Node = {
-  "id": "ea74047cc1b2d840",
+  "id": "b936a17457cc0393",
   "type": "debug",
   "z": "971a7ae6df987a48",
-  "name": "CSV",
-  "active": true,
+  "name": "Konverteret",
+  "active": false,
   "tosidebar": true,
   "console": false,
   "tostatus": false,
-  "complete": "payload",
-  "targetType": "msg",
+  "complete": "true",
+  "targetType": "full",
   "statusVal": "",
   "statusType": "auto",
-  "x": 970,
-  "y": 640,
+  "x": 830,
+  "y": 660,
   "wires": [],
-  "_order": 17
+  "_order": 29
 }
 
 module.exports = Node;

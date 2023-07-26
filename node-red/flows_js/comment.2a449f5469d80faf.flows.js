@@ -1,13 +1,13 @@
 const Node = {
-  "id": "c345c68af899aac5",
+  "id": "2a449f5469d80faf",
   "type": "comment",
   "z": "971a7ae6df987a48",
-  "name": "Dynamisk konvertering af kolonner",
+  "name": "Konvertér",
   "info": "",
-  "x": 260,
-  "y": 340,
+  "x": 580,
+  "y": 620,
   "wires": [],
-  "_order": 24
+  "_order": 31
 }
 
 module.exports = Node;

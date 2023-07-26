@@ -3,7 +3,7 @@ const Node = {
   "type": "csv",
   "z": "971a7ae6df987a48",
   "name": "",
-  "sep": ";",
+  "sep": ",",
   "hdrin": false,
   "hdrout": "all",
   "multi": "mult",
@@ -13,14 +13,15 @@ const Node = {
   "strings": true,
   "include_empty_strings": "",
   "include_null_values": "",
-  "x": 810,
-  "y": 640,
+  "x": 170,
+  "y": 660,
   "wires": [
     [
-      "ea74047cc1b2d840"
+      "5007b613c71baf2e",
+      "90df6f10ae56a24f"
     ]
   ],
-  "_order": 12
+  "_order": 19
 }
 
 module.exports = Node;

@@ -4,10 +4,10 @@ const Node = {
   "z": "971a7ae6df987a48",
   "name": "Manuel konvertering af kolonner",
   "info": "",
-  "x": 490,
-  "y": 380,
+  "x": 250,
+  "y": 440,
   "wires": [],
-  "_order": 19
+  "_order": 25
 }
 
 module.exports = Node;

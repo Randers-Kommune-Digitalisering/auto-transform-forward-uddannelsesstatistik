@@ -1,0 +1,8 @@
+{
+    "csvtoxlsxconverter": {
+        "spec": "csvtoxlsxconverter",
+        "module": "csvtoxlsxconverter",
+        "builtin": false,
+        "known": false
+    }
+}

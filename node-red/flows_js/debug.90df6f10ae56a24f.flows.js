@@ -1,20 +1,20 @@
 const Node = {
-  "id": "cdd85ad51debab44",
+  "id": "90df6f10ae56a24f",
   "type": "debug",
   "z": "971a7ae6df987a48",
-  "name": "Kolonner",
+  "name": "CSV",
   "active": false,
   "tosidebar": true,
   "console": false,
   "tostatus": false,
-  "complete": "columns",
+  "complete": "payload",
   "targetType": "msg",
   "statusVal": "",
   "statusType": "auto",
-  "x": 740,
-  "y": 300,
+  "x": 170,
+  "y": 700,
   "wires": [],
-  "_order": 20
+  "_order": 34
 }
 
 module.exports = Node;
