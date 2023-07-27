@@ -4,19 +4,19 @@ const Node = {
   "z": "971a7ae6df987a48",
   "name": "Definer nye kolonnenavne",
   "field": "columns",
-  "fieldType": "msg",
+  "fieldType": "flow",
   "format": "json",
   "syntax": "mustache",
   "template": "",
   "output": "json",
-  "x": 260,
-  "y": 440,
+  "x": 530,
+  "y": 80,
   "wires": [
     [
-      "3f1fbebfb0adc88c"
+      "761a7e254521b639"
     ]
   ],
-  "_order": 25
+  "_order": 66
 }
 
 Node.template = `
@@ -24,7 +24,7 @@ Node.template = `
     "[Skoleår].[Skoleår].[Skoleår]": "År",
     "[Klassetrin].[Skoletrin].[Skoletrin]": "Trin",
     "[Institution].[Institution].[Institution]": "Skolenavn",
-    "[Indikator].[Indikator].[Indikator]": "Indikator",
+    "[Indikatorsvar].[Indikatorsvar].[Indikatorsvar]": "Indikator",
     "Indikatorsvar": "Indikatorsvar"
 }
 `

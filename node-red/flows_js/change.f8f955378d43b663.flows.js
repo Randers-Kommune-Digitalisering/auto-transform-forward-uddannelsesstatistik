@@ -1,0 +1,51 @@
+const Node = {
+  "id": "f8f955378d43b663",
+  "type": "change",
+  "z": "971a7ae6df987a48",
+  "name": "Definér værdier \\n for datasæt",
+  "rules": [
+    {
+      "t": "set",
+      "p": "metadata_tablename",
+      "pt": "flow",
+      "to": "elevtrivsel_4til9klasse_metadata",
+      "tot": "str"
+    },
+    {
+      "t": "set",
+      "p": "startingYear",
+      "pt": "msg",
+      "to": "2014",
+      "tot": "num"
+    },
+    {
+      "t": "set",
+      "p": "yearBeginsAt",
+      "pt": "msg",
+      "to": "01/08",
+      "tot": "str"
+    },
+    {
+      "t": "set",
+      "p": "yearBeginsAt_format",
+      "pt": "msg",
+      "to": "[D01]/[M01]",
+      "tot": "str"
+    }
+  ],
+  "action": "",
+  "property": "",
+  "from": "",
+  "to": "",
+  "reg": false,
+  "x": 250,
+  "y": 80,
+  "wires": [
+    [
+      "d4b9b2485f323623"
+    ]
+  ],
+  "_order": 51
+}
+
+module.exports = Node;

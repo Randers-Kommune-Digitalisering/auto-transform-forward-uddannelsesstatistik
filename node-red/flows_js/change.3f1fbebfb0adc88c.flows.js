@@ -6,6 +6,14 @@ const Node = {
   "rules": [
     {
       "t": "set",
+      "p": "columns",
+      "pt": "msg",
+      "to": "columns",
+      "tot": "flow",
+      "dc": true
+    },
+    {
+      "t": "set",
       "p": "payload",
       "pt": "msg",
       "to": "payload @ $obj # $index . (\t\t    ( columns ~> $keys ) @ $column . {\t        columns ~> $lookup($column): payload[$index] ~> $lookup($column)\t    } ~> $merge\t\t)",
@@ -22,15 +30,14 @@ const Node = {
   "from": "",
   "to": "",
   "reg": false,
-  "x": 580,
-  "y": 440,
+  "x": 360,
+  "y": 1020,
   "wires": [
     [
-      "99fe4815a3a30927",
-      "f13064df4203d26c"
+      "659c883a70e3086a"
     ]
   ],
-  "_order": 21
+  "_order": 70
 }
 
 module.exports = Node;

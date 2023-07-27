@@ -9,14 +9,15 @@ const Node = {
   "syntax": "mustache",
   "template": "",
   "output": "json",
-  "x": 250,
-  "y": 120,
+  "x": 340,
+  "y": 840,
   "wires": [
     [
+      "d85e8f04d9393ba5",
       "916c034b8028a555"
     ]
   ],
-  "_order": 15
+  "_order": 37
 }
 
 Node.template = `
@@ -34,6 +35,17 @@ Node.template = `
       "[Klassetrin].[Skoletrin]",
       "[Skoleår].[Skoleår]"
    ],
+   "filtre": {
+      "[Institution].[Kommune]": [
+         "Randers"
+      ],
+      "[Insttype].[Institutionstype]": [
+         "Folkeskoler"
+      ],
+      "[Skoleår].[Skoleår]": [
+         "{{{schoolYear}}}"
+      ]
+   },
    "indlejret": false,
    "tomme_rækker": false,
    "formattering": "json",

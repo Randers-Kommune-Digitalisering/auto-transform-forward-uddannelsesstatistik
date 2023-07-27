@@ -4,10 +4,10 @@ const Node = {
   "z": "971a7ae6df987a48",
   "name": "Send XLSX med e-mail",
   "info": "",
-  "x": 250,
-  "y": 760,
+  "x": 260,
+  "y": 1680,
   "wires": [],
-  "_order": 32
+  "_order": 46
 }
 
 module.exports = Node;
