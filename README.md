@@ -1,32 +1,45 @@
-# <img src="https://user-images.githubusercontent.com/80261692/226564602-21d9c099-7c27-4ab0-80cb-295844e318de.png" width="54"> Node-RED template-projekt
-Template til nye Node-RED projekter.
-Projekt indeholder en tom Node-RED og paletterne
-* node-red-contrib-mysql-config
-* node-red-contrib-prometheus-exporter
+# Auto-forward-uddannelsesstatistik
+|  [**Beskrivelse**](#beskrivelse)  |  [**Afhængigheder**](#afh%C3%A6ngigheder)  |  [**Ressourcer**](#Ressourcer)   |
 
-# Brug af node-red-template
-1. Gå til https://github.com/Randers-Kommune-Digitalisering/node-red-template
-2. ![image](https://user-images.githubusercontent.com/80261692/226566679-e7785e2b-1d03-4b43-a01f-47ecb709d3a2.png) Klik på "use this template" og vælg "create a new repository"
+```mermaid
+flowchart  LR
 
-3. Udfyld skærmbillede med information om den nye service
-4. Åbn dit nye git projekt
+subgraph  Datatræk
+API
+end
 
-# Nyt Node-RED projekt
-Nedenstående relaterer sig til et nyt Node-RED projekt der er baseret på denne template.
+subgraph  Datatransformation
+T
+end
 
-## Udvikling i et Codespace:
-1. Gå til det nyoprettede repository i github.
-2. Klik på den grønne <>Code knap og vælg "create codespace on master"
-![Start_Codespace](https://user-images.githubusercontent.com/80261692/226568105-5b9680e4-f1bb-465a-9f10-dcd305b534a8.gif)
+subgraph  Aflevér data
+L2
+end
 
+META[(Lokal \n metadata)]
+---  API>Uddannelsesstatistik]
+-->  E[-\nNy data\n-]
+-->  T(Datafiltrering og \n-transformering)
+-->  L[(Opdater \n metadata)]
+--> L2[[Send data]]
+```
+### Beskrivelse
 
+Automatiseringsløsningen er opbygget som løst koblet arkitektur hvor data styres igennem en række komponenter der er simple at vedligeholde og udskifte. 
 
-> docker-compose up --build
+- **Først kontrolleres lokal metadata op mod aktuel dato** 
+	- Her kontrolleres det om seneste succesfulde datatræk var i indeværende eller sidste dataperiode
+- **Der skabes ét, eller flere API-kald til Uddannelsesstatistik**
+	- Der skabes ét API-kald for hver manglende dataperiode
+- **Ny data hentes** (såfremt data eksisterer)
+- **Data transformeres efter datatrækkets opsætning**
+	- Data filtreres og kolonner omdøbes
+- **Lokal metadata opdateres**
+	- Metadataene indeholder info vedr. seneste datatræk (periode, antal rækker i datasæt, timestamps)
+- **Ny data afleveres til kontaktperson** 
 
-Starter et lokalt docker-compose miljø, der bygger og starter Node-RED og en mariadb.
+### Afhængigheder
+Kommer snart ...
 
-Ved byg af Node-RED kopieres følgende filer ind i containeren:
-* [node-red/package.json](node-red/package.json)
-* [node-red/settings.js](node-red/settings.js)
-* [node-red/flows_cred.json](node-red/flows_cred.json)
-* [node-red/flows.json](node-red/flows.json)
+### Ressourcer
+Kommer snart ...
