@@ -15,14 +15,14 @@ const Node = {
       "module": "csvtoxlsxconverter"
     }
   ],
-  "x": 580,
-  "y": 1580,
+  "x": 600,
+  "y": 1900,
   "wires": [
     [
       "b936a17457cc0393"
     ]
   ],
-  "_order": 41
+  "_order": 48
 }
 
 Node.func = async function (node, msg, RED, context, flow, global, env, util, xlsx) {

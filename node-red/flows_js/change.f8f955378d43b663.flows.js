@@ -2,6 +2,7 @@ const Node = {
   "id": "f8f955378d43b663",
   "type": "change",
   "z": "971a7ae6df987a48",
+  "g": "57e65c48f5b0a2e1",
   "name": "Definér værdier \\n for datasæt",
   "rules": [
     {
@@ -38,14 +39,14 @@ const Node = {
   "from": "",
   "to": "",
   "reg": false,
-  "x": 250,
-  "y": 80,
+  "x": 280,
+  "y": 120,
   "wires": [
     [
       "d4b9b2485f323623"
     ]
   ],
-  "_order": 51
+  "_order": 58
 }
 
 module.exports = Node;

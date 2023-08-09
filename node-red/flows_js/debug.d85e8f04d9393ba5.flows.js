@@ -2,6 +2,7 @@ const Node = {
   "id": "d85e8f04d9393ba5",
   "type": "debug",
   "z": "971a7ae6df987a48",
+  "g": "139a6a824c08c7ea",
   "name": "Skoleår",
   "active": true,
   "tosidebar": true,
@@ -11,10 +12,10 @@ const Node = {
   "targetType": "msg",
   "statusVal": "",
   "statusType": "auto",
-  "x": 380,
-  "y": 880,
+  "x": 520,
+  "y": 1100,
   "wires": [],
-  "_order": 67
+  "_order": 72
 }
 
 module.exports = Node;

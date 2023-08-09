@@ -2,6 +2,7 @@ const Node = {
   "id": "2b8bb316fba5fbe5",
   "type": "change",
   "z": "971a7ae6df987a48",
+  "g": "1a1eb8215e2a1880",
   "name": "Bestem metadata",
   "rules": [
     {
@@ -31,14 +32,14 @@ const Node = {
   "from": "",
   "to": "",
   "reg": false,
-  "x": 330,
-  "y": 1180,
+  "x": 430,
+  "y": 1460,
   "wires": [
     [
       "779a2ca35eaa36d5"
     ]
   ],
-  "_order": 83
+  "_order": 85
 }
 
 module.exports = Node;

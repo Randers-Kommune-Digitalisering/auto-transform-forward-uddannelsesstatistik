@@ -2,12 +2,13 @@ const Node = {
   "id": "fe236d057e689079",
   "type": "comment",
   "z": "971a7ae6df987a48",
+  "g": "13cb76c02d53c334",
   "name": "Find startår for datatræk",
   "info": "",
-  "x": 260,
-  "y": 480,
+  "x": 280,
+  "y": 640,
   "wires": [],
-  "_order": 58
+  "_order": 65
 }
 
 module.exports = Node;

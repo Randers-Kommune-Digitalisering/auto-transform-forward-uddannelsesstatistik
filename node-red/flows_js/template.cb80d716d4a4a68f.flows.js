@@ -2,22 +2,23 @@ const Node = {
   "id": "cb80d716d4a4a68f",
   "type": "template",
   "z": "971a7ae6df987a48",
-  "name": "Opsætning af API kald \\n Datasæt",
+  "g": "139a6a824c08c7ea",
+  "name": "API kald ↓\\n Hent indikatorsvar for skoleår",
   "field": "payload",
   "fieldType": "msg",
   "format": "handlebars",
   "syntax": "mustache",
   "template": "",
   "output": "json",
-  "x": 340,
-  "y": 840,
+  "x": 460,
+  "y": 1060,
   "wires": [
     [
-      "d85e8f04d9393ba5",
-      "916c034b8028a555"
+      "916c034b8028a555",
+      "d85e8f04d9393ba5"
     ]
   ],
-  "_order": 37
+  "_order": 89
 }
 
 Node.template = `

@@ -2,6 +2,7 @@ const Node = {
   "id": "2d93f29c50e8c52e",
   "type": "template",
   "z": "971a7ae6df987a48",
+  "g": "16e22b5e86fbc004",
   "name": "Forespørgsel ↓\\n Opret metadata tabel hvis der ikke \\n eksisterer en i forvejen ",
   "field": "sql",
   "fieldType": "msg",
@@ -9,14 +10,14 @@ const Node = {
   "syntax": "mustache",
   "template": "",
   "output": "str",
-  "x": 300,
-  "y": 260,
+  "x": 320,
+  "y": 360,
   "wires": [
     [
       "16abbee64e6bd34f"
     ]
   ],
-  "_order": 55
+  "_order": 62
 }
 
 Node.template = `

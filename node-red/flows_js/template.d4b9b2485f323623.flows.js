@@ -2,6 +2,7 @@ const Node = {
   "id": "d4b9b2485f323623",
   "type": "template",
   "z": "971a7ae6df987a48",
+  "g": "57e65c48f5b0a2e1",
   "name": "Definer nye kolonnenavne",
   "field": "columns",
   "fieldType": "flow",
@@ -10,13 +11,13 @@ const Node = {
   "template": "",
   "output": "json",
   "x": 530,
-  "y": 80,
+  "y": 120,
   "wires": [
     [
       "761a7e254521b639"
     ]
   ],
-  "_order": 66
+  "_order": 71
 }
 
 Node.template = `

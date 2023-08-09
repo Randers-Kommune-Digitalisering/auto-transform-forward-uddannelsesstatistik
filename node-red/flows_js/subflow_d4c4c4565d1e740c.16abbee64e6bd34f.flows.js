@@ -2,16 +2,16 @@ const Node = {
   "id": "16abbee64e6bd34f",
   "type": "subflow:d4c4c4565d1e740c",
   "z": "971a7ae6df987a48",
+  "g": "16e22b5e86fbc004",
   "name": "",
-  "x": 620,
-  "y": 260,
+  "x": 640,
+  "y": 360,
   "wires": [
     [
-      "c22e1345517ca6c6",
-      "1b4b06f054a726ba"
+      "c22e1345517ca6c6"
     ]
   ],
-  "_order": 54
+  "_order": 61
 }
 
 module.exports = Node;

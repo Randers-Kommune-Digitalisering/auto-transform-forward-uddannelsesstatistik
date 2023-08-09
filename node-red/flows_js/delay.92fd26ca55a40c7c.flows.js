@@ -15,14 +15,14 @@ const Node = {
   "drop": false,
   "allowrate": false,
   "outputs": 1,
-  "x": 610,
-  "y": 720,
+  "x": 700,
+  "y": 920,
   "wires": [
     [
       "c68f6f14d7700781"
     ]
   ],
-  "_order": 63
+  "_order": 69
 }
 
 module.exports = Node;

@@ -4,10 +4,10 @@ const Node = {
   "z": "971a7ae6df987a48",
   "name": "Begræns datatræk",
   "info": "",
-  "x": 620,
-  "y": 680,
+  "x": 710,
+  "y": 880,
   "wires": [],
-  "_order": 64
+  "_order": 70
 }
 
 module.exports = Node;

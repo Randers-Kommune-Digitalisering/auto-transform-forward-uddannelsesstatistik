@@ -2,6 +2,7 @@ const Node = {
   "id": "82e3021114461a25",
   "type": "change",
   "z": "971a7ae6df987a48",
+  "g": "13cb76c02d53c334",
   "name": "Find alle skoleår \\n fra startingYear til nu",
   "rules": [
     {
@@ -40,15 +41,15 @@ const Node = {
   "from": "",
   "to": "",
   "reg": false,
-  "x": 560,
-  "y": 540,
+  "x": 580,
+  "y": 700,
   "wires": [
     [
       "f23081bda00db1be",
       "6d43f9cb03b082ce"
     ]
   ],
-  "_order": 50
+  "_order": 57
 }
 
 module.exports = Node;

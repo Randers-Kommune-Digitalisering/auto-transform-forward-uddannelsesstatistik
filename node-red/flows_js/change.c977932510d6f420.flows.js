@@ -3,6 +3,7 @@ const Node = {
   "type": "change",
   "z": "971a7ae6df987a48",
   "d": true,
+  "g": "13cb76c02d53c334",
   "name": "Find indeværende skoleår",
   "rules": [
     {
@@ -18,12 +19,12 @@ const Node = {
   "from": "",
   "to": "",
   "reg": false,
-  "x": 270,
-  "y": 560,
+  "x": 290,
+  "y": 720,
   "wires": [
     []
   ],
-  "_order": 53
+  "_order": 60
 }
 
 module.exports = Node;

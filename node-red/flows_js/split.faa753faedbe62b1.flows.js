@@ -9,14 +9,14 @@ const Node = {
   "arraySpltType": "len",
   "stream": false,
   "addname": "",
-  "x": 300,
-  "y": 720,
+  "x": 390,
+  "y": 920,
   "wires": [
     [
       "2bea066775ce4eaa"
     ]
   ],
-  "_order": 60
+  "_order": 67
 }
 
 module.exports = Node;

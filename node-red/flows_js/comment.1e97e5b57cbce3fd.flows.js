@@ -4,10 +4,10 @@ const Node = {
   "z": "971a7ae6df987a48",
   "name": "Saml data for alle skoleår",
   "info": "",
-  "x": 350,
-  "y": 1300,
+  "x": 450,
+  "y": 1620,
   "wires": [],
-  "_order": 84
+  "_order": 86
 }
 
 module.exports = Node;

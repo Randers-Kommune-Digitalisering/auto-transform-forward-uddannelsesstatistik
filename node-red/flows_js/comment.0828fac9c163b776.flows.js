@@ -4,10 +4,10 @@ const Node = {
   "z": "971a7ae6df987a48",
   "name": "Split per skoleår til datatræk",
   "info": "",
-  "x": 370,
-  "y": 680,
+  "x": 460,
+  "y": 880,
   "wires": [],
-  "_order": 61
+  "_order": 68
 }
 
 module.exports = Node;
