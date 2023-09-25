@@ -3,13 +3,13 @@ const Node = {
   "type": "file",
   "z": "bbeb8dfaa79c297c",
   "name": "",
-  "filename": "",
-  "filenameType": "str",
+  "filename": "filename",
+  "filenameType": "msg",
   "appendNewline": true,
   "createDir": false,
   "overwriteFile": "delete",
   "encoding": "none",
-  "x": 510,
+  "x": 490,
   "y": 260,
   "wires": [
     [
