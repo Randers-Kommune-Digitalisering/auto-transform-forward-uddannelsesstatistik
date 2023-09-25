@@ -9,14 +9,14 @@ const Node = {
   "syntax": "mustache",
   "template": "",
   "output": "json",
-  "x": 600,
-  "y": 2240,
+  "x": 590,
+  "y": 2100,
   "wires": [
     [
       "1641997916377351"
     ]
   ],
-  "_order": 94
+  "_order": 96
 }
 
 Node.template = `
@@ -35,7 +35,7 @@ Node.template = `
                   "type": "TextBlock",
                   "size": "Medium",
                   "weight": "Bolder",
-                  "text": "Ny trivselsdata 4-9. klasse"
+                  "text": "{{{payload.title}}}"
                },
                {
                   "type": "TextBlock",
@@ -45,7 +45,7 @@ Node.template = `
                },
                {
                   "type": "TextBlock",
-                  "text": "Der blev fundet ny uddannelsesstatistik 4-9. klasse, tryk på knappen nedenfor for at starte download.",
+                  "text": "Der blev fundet ny uddannelsesstatistik, tryk på knappen nedenfor for at starte download.",
                   "wrap": true
                }
             ],
@@ -53,7 +53,7 @@ Node.template = `
                {
                   "type": "Action.OpenUrl",
                   "title": "Download ny data",
-                  "url": "https://google.dk"
+                  "url": "{{{payload.url}}}"
                }
             ]
          }
