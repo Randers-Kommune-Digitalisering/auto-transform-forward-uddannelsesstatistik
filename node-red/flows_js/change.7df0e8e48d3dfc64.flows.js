@@ -6,9 +6,9 @@ const Node = {
   "rules": [
     {
       "t": "set",
-      "p": "fileName",
+      "p": "filename",
       "pt": "msg",
-      "to": "fileName & \".xlsx\"",
+      "to": "filename & \".xlsx\"",
       "tot": "jsonata"
     }
   ],
@@ -17,7 +17,7 @@ const Node = {
   "from": "",
   "to": "",
   "reg": false,
-  "x": 1170,
+  "x": 1190,
   "y": 2000,
   "wires": [
     [
