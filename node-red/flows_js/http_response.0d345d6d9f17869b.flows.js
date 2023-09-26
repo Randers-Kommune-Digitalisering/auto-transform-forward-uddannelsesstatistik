@@ -4,11 +4,9 @@ const Node = {
   "z": "bbeb8dfaa79c297c",
   "name": "",
   "statusCode": "",
-  "headers": {
-    "content-type": "application/force-download"
-  },
-  "x": 1150,
-  "y": 100,
+  "headers": {},
+  "x": 1210,
+  "y": 80,
   "wires": [],
   "_order": 115
 }

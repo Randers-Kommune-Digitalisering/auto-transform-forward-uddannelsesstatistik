@@ -7,7 +7,7 @@ const Node = {
   "tosidebar": true,
   "console": true,
   "tostatus": false,
-  "complete": "{\t    payload.file: \"file download initiated\",\t    \"fileExists\": $globalContext(\"files\") ~> $contains(payload.file)\t}",
+  "complete": "{\t    payload.file: \"file download initiated\",\t    \"fileExists\": payload.file in $globalContext(\"files\")\t}",
   "targetType": "jsonata",
   "statusVal": "",
   "statusType": "auto",

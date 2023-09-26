@@ -8,8 +8,8 @@ const Node = {
       "t": "set",
       "p": "files",
       "pt": "global",
-      "to": "$globalContext(\"files\") ~> $append(filename)",
-      "tot": "env"
+      "to": "$globalContext(\"files\") ~> $append([filename])",
+      "tot": "jsonata"
     }
   ],
   "action": "",
