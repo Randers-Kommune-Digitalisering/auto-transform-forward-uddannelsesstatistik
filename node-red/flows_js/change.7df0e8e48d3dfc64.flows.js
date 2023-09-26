@@ -1,15 +1,15 @@
 const Node = {
-  "id": "cfa5095a014358fe",
+  "id": "7df0e8e48d3dfc64",
   "type": "change",
-  "z": "bbeb8dfaa79c297c",
+  "z": "971a7ae6df987a48",
   "name": "",
   "rules": [
     {
       "t": "set",
-      "p": "headers",
+      "p": "fileName",
       "pt": "msg",
-      "to": "{}",
-      "tot": "json"
+      "to": "fileName & \".xlsx\"",
+      "tot": "jsonata"
     }
   ],
   "action": "",
@@ -17,16 +17,14 @@ const Node = {
   "from": "",
   "to": "",
   "reg": false,
-  "x": 1055,
-  "y": 120,
+  "x": 1170,
+  "y": 2000,
   "wires": [
     [
-      "0d345d6d9f17869b",
-      "96648bfc05ee7d68"
+      "0732465cf3d550bd"
     ]
   ],
-  "l": false,
-  "_order": 132
+  "_order": 115
 }
 
 module.exports = Node;

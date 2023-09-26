@@ -1,7 +1,7 @@
 const Node = {
-  "id": "928ae17d0078e2f1",
+  "id": "0732465cf3d550bd",
   "type": "file in",
-  "z": "bbeb8dfaa79c297c",
+  "z": "971a7ae6df987a48",
   "name": "",
   "filename": "filename",
   "filenameType": "msg",
@@ -10,14 +10,14 @@ const Node = {
   "sendError": false,
   "encoding": "none",
   "allProps": false,
-  "x": 960,
-  "y": 80,
+  "x": 1180,
+  "y": 2040,
   "wires": [
     [
-      "244a38ce28968e2f"
+      "29a6983efa6868b3"
     ]
   ],
-  "_order": 119
+  "_order": 114
 }
 
 module.exports = Node;

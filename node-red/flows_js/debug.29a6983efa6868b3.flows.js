@@ -1,20 +1,20 @@
 const Node = {
-  "id": "76a10d9ceb7bfa9d",
+  "id": "29a6983efa6868b3",
   "type": "debug",
-  "z": "bbeb8dfaa79c297c",
-  "name": "ERROR",
+  "z": "971a7ae6df987a48",
+  "name": "READ XLSX",
   "active": true,
   "tosidebar": true,
   "console": true,
   "tostatus": false,
-  "complete": "{ \"error\": error\t}",
-  "targetType": "jsonata",
+  "complete": "payload",
+  "targetType": "msg",
   "statusVal": "",
   "statusType": "auto",
-  "x": 290,
-  "y": 420,
+  "x": 1210,
+  "y": 2100,
   "wires": [],
-  "_order": 127
+  "_order": 116
 }
 
 module.exports = Node;
