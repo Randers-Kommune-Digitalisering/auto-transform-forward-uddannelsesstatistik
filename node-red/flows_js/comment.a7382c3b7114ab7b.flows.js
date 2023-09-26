@@ -6,9 +6,9 @@ const Node = {
   "name": "Konvertering af kolonner",
   "info": "",
   "x": 450,
-  "y": 1240,
+  "y": 1320,
   "wires": [],
-  "_order": 50
+  "_order": 52
 }
 
 module.exports = Node;

@@ -1,14 +1,14 @@
 const Node = {
-  "id": "34dda33099953e22",
+  "id": "7daf978fbe4fb478",
   "type": "change",
   "z": "bbeb8dfaa79c297c",
-  "name": "",
+  "name": "delete file from list",
   "rules": [
     {
       "t": "set",
-      "p": "filename",
-      "pt": "msg",
-      "to": "payload.file & \".xlsx\"",
+      "p": "files",
+      "pt": "global",
+      "to": "$globalContext(\"files\") ~> | $ | {}[payload.file] |",
       "tot": "jsonata"
     }
   ],
@@ -18,15 +18,13 @@ const Node = {
   "to": "",
   "reg": false,
   "x": 450,
-  "y": 100,
+  "y": 260,
   "wires": [
     [
-      "9b76c31e7766b0c7",
-      "ca701ca45c5ccde1",
-      "778e492529d71c57"
+      "292d143d80b9ff98"
     ]
   ],
-  "_order": 108
+  "_order": 119
 }
 
 module.exports = Node;

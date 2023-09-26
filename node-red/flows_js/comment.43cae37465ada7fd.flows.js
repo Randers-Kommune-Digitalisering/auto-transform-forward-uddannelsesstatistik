@@ -6,9 +6,9 @@ const Node = {
   "name": "Opdater metadata",
   "info": "",
   "x": 430,
-  "y": 1420,
+  "y": 1500,
   "wires": [],
-  "_order": 80
+  "_order": 81
 }
 
 module.exports = Node;

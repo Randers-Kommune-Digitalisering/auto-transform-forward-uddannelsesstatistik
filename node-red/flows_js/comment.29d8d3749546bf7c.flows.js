@@ -4,10 +4,10 @@ const Node = {
   "z": "bbeb8dfaa79c297c",
   "name": "Slet fil 1 time efter download",
   "info": "",
-  "x": 320,
+  "x": 300,
   "y": 220,
   "wires": [],
-  "_order": 106
+  "_order": 110
 }
 
 module.exports = Node;

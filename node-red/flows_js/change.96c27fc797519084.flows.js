@@ -1,13 +1,13 @@
 const Node = {
-  "id": "761a7e254521b639",
+  "id": "96c27fc797519084",
   "type": "change",
   "z": "971a7ae6df987a48",
-  "name": "Rens flow værdier",
+  "name": "",
   "rules": [
     {
       "t": "set",
-      "p": "data",
-      "pt": "flow",
+      "p": "files",
+      "pt": "global",
       "to": "[]",
       "tot": "json"
     }
@@ -17,14 +17,12 @@ const Node = {
   "from": "",
   "to": "",
   "reg": false,
-  "x": 870,
-  "y": 200,
+  "x": 320,
+  "y": 60,
   "wires": [
-    [
-      "6ab986eed0809515"
-    ]
+    []
   ],
-  "_order": 79
+  "_order": 103
 }
 
 module.exports = Node;

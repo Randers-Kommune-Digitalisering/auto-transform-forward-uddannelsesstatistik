@@ -7,14 +7,14 @@ const Node = {
   "tosidebar": true,
   "console": true,
   "tostatus": false,
-  "complete": "{\t    payload.file: \"file download initiated\"\t}",
+  "complete": "{\t    payload.file: \"file download initiated\",\t    \"fileExists\": $globalContext(\"files\") ~> $contains(payload.file)\t}",
   "targetType": "jsonata",
   "statusVal": "",
   "statusType": "auto",
-  "x": 720,
+  "x": 740,
   "y": 140,
   "wires": [],
-  "_order": 105
+  "_order": 109
 }
 
 module.exports = Node;

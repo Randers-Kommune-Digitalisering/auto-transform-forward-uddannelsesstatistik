@@ -5,9 +5,9 @@ const Node = {
   "name": "Send besked om ny data til Teams",
   "info": "",
   "x": 320,
-  "y": 2060,
+  "y": 2140,
   "wires": [],
-  "_order": 56
+  "_order": 57
 }
 
 module.exports = Node;

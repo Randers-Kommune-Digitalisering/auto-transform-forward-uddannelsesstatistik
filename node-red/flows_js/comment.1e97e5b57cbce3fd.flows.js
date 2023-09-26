@@ -5,9 +5,9 @@ const Node = {
   "name": "Saml data for alle skoleår",
   "info": "",
   "x": 450,
-  "y": 1620,
+  "y": 1700,
   "wires": [],
-  "_order": 89
+  "_order": 90
 }
 
 module.exports = Node;

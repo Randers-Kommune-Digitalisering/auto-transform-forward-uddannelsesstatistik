@@ -11,13 +11,13 @@ const Node = {
   "template": "",
   "output": "str",
   "x": 320,
-  "y": 360,
+  "y": 440,
   "wires": [
     [
       "16abbee64e6bd34f"
     ]
   ],
-  "_order": 65
+  "_order": 66
 }
 
 Node.template = `

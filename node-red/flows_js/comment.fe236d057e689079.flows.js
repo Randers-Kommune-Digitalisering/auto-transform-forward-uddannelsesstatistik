@@ -6,9 +6,9 @@ const Node = {
   "name": "Find startår for datatræk",
   "info": "",
   "x": 280,
-  "y": 640,
+  "y": 720,
   "wires": [],
-  "_order": 68
+  "_order": 69
 }
 
 module.exports = Node;
