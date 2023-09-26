@@ -20,7 +20,7 @@ const Node = {
 }
 
 Node.template = `
-DROP TABLE {{flow.metadata_tablename}}
+DROP TABLE elevtrivsel_4til9klasse_metadata
 `
 
 module.exports = Node;
