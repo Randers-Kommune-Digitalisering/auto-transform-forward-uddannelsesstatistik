@@ -7,7 +7,7 @@ const Node = {
   "propertyType": "env",
   "rules": [
     {
-      "t": "false"
+      "t": "empty"
     }
   ],
   "checkall": "true",
