@@ -1,20 +1,20 @@
 const Node = {
-  "id": "ac2734ee1d031fee",
+  "id": "71b4ce67acf25218",
   "type": "debug",
-  "z": "bbeb8dfaa79c297c",
+  "z": "971a7ae6df987a48",
   "name": "stdout",
   "active": true,
   "tosidebar": true,
   "console": true,
   "tostatus": false,
-  "complete": "{\t    payload.file: \"file deleted\"\t}",
+  "complete": "{\t    $flowContext(\"metadata_tablename\"): \"no new data found\"\t}",
   "targetType": "jsonata",
   "statusVal": "",
   "statusType": "auto",
-  "x": 840,
-  "y": 260,
+  "x": 820,
+  "y": 1720,
   "wires": [],
-  "_order": 122
+  "_order": 113
 }
 
 module.exports = Node;

@@ -13,9 +13,9 @@ const Node = {
     },
     {
       "t": "set",
-      "p": "payload",
+      "p": "card",
       "pt": "msg",
-      "to": "{\t    \"title\": dataname,\t    \"url\": urlbase + \"/uddannelsesstatistik.xlsx?file=\" & filename,\t    \"date\": $now() ~> $fromMillis(\"[D01]-[M01]-[Y0001]\")\t}",
+      "to": "{\t    \"title\": dataname,\t    \"url\": \"https://\" & urlbase & \"/uddannelsesstatistik.xlsx?file=\" & filename,\t    \"date\": $millis() ~> $fromMillis(\"[D01]-[M01]-[Y0001]\")\t}",
       "tot": "jsonata"
     }
   ],

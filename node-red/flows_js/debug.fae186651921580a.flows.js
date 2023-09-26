@@ -7,11 +7,11 @@ const Node = {
   "tosidebar": true,
   "console": true,
   "tostatus": false,
-  "complete": "{\t    \"uddannelsesstatistik\": \"datapull complete\",\t    \"statusCode\": statusCode,\t    \"success\": statusCode = 200 ? true : false\t}",
+  "complete": "{\t    $flowContext(\"metadata_tablename\"): \"datapull complete\",\t    \"schoolYear\": schoolYear,\t    \"dataRows\": payload ~> $count(),\t    \"statusCode\": statusCode,\t    \"success\": statusCode = 200 ? true : false\t}",
   "targetType": "jsonata",
   "statusVal": "",
   "statusType": "auto",
-  "x": 1020,
+  "x": 1000,
   "y": 1140,
   "wires": [],
   "_order": 101

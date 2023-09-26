@@ -35,7 +35,7 @@ Node.template = `
                   "type": "TextBlock",
                   "size": "Medium",
                   "weight": "Bolder",
-                  "text": "{{{payload.title}}}"
+                  "text": "{{{card.title}}}"
                },
                {
                   "type": "TextBlock",
@@ -53,7 +53,7 @@ Node.template = `
                {
                   "type": "Action.OpenUrl",
                   "title": "Download ny data",
-                  "url": "{{{payload.url}}}"
+                  "url": "{{{card.url}}}"
                }
             ]
          }
