@@ -7,16 +7,30 @@ const Node = {
   "rules": [
     {
       "t": "set",
+      "p": "dataname",
+      "pt": "msg",
+      "to": "Elevtrivsel 4.-9. klasse",
+      "tot": "str"
+    },
+    {
+      "t": "set",
+      "p": "dataset",
+      "pt": "msg",
+      "to": "elevtrivsel_4til9klasse",
+      "tot": "str"
+    },
+    {
+      "t": "set",
       "p": "metadata_tablename",
       "pt": "flow",
-      "to": "elevtrivsel_4til9klasse_metadata",
-      "tot": "str"
+      "to": "dataset & \"_metadata\"",
+      "tot": "jsonata"
     },
     {
       "t": "set",
       "p": "startingYear",
       "pt": "msg",
-      "to": "2014",
+      "to": "2022",
       "tot": "num"
     },
     {
@@ -40,13 +54,13 @@ const Node = {
   "to": "",
   "reg": false,
   "x": 280,
-  "y": 120,
+  "y": 200,
   "wires": [
     [
       "d4b9b2485f323623"
     ]
   ],
-  "_order": 58
+  "_order": 62
 }
 
 module.exports = Node;

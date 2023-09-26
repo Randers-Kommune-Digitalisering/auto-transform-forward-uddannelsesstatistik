@@ -4,7 +4,7 @@ const Node = {
   "z": "971a7ae6df987a48",
   "g": "139a6a824c08c7ea",
   "name": "Skoleår",
-  "active": true,
+  "active": false,
   "tosidebar": true,
   "console": false,
   "tostatus": false,
@@ -13,9 +13,9 @@ const Node = {
   "statusVal": "",
   "statusType": "auto",
   "x": 520,
-  "y": 1100,
+  "y": 1180,
   "wires": [],
-  "_order": 72
+  "_order": 76
 }
 
 module.exports = Node;

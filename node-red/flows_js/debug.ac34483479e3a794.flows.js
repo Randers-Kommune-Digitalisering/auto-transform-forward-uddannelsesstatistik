@@ -1,20 +1,20 @@
 const Node = {
-  "id": "b936a17457cc0393",
+  "id": "ac34483479e3a794",
   "type": "debug",
   "z": "971a7ae6df987a48",
-  "name": "Konverteret",
-  "active": false,
+  "name": "debug 1",
+  "active": true,
   "tosidebar": true,
-  "console": false,
+  "console": true,
   "tostatus": false,
-  "complete": "true",
-  "targetType": "full",
+  "complete": "payload",
+  "targetType": "msg",
   "statusVal": "",
   "statusType": "auto",
-  "x": 870,
-  "y": 1900,
+  "x": 940,
+  "y": 2460,
   "wires": [],
-  "_order": 50
+  "_order": 108
 }
 
 module.exports = Node;
