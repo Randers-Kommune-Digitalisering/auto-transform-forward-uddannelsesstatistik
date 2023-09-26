@@ -1,23 +1,25 @@
 const Node = {
-  "id": "5cac69160cffdad4",
+  "id": "7278d8a019646c2b",
   "type": "switch",
   "z": "971a7ae6df987a48",
-  "name": "Dev?",
-  "property": "DEV_ENV",
+  "name": "Tjek om der køres \\n i udviklermiljø",
+  "property": "DEV_ENVIROMENT",
   "propertyType": "env",
   "rules": [
     {
-      "t": "empty"
+      "t": "neq",
+      "v": "true",
+      "vt": "str"
     }
   ],
   "checkall": "true",
   "repair": false,
   "outputs": 1,
-  "x": 230,
-  "y": 2180,
+  "x": 170,
+  "y": 180,
   "wires": [
     [
-      "4ff56523274675ec"
+      "f8f955378d43b663"
     ]
   ],
   "_order": 119
