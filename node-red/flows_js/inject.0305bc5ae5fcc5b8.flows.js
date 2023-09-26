@@ -3,23 +3,13 @@ const Node = {
   "type": "inject",
   "z": "971a7ae6df987a48",
   "name": "",
-  "props": [
-    {
-      "p": "payload"
-    },
-    {
-      "p": "topic",
-      "vt": "str"
-    }
-  ],
+  "props": [],
   "repeat": "",
   "crontab": "",
-  "once": false,
-  "onceDelay": 0.1,
+  "once": true,
+  "onceDelay": "1",
   "topic": "",
-  "payload": "",
-  "payloadType": "date",
-  "x": 240,
+  "x": 230,
   "y": 2460,
   "wires": [
     [
