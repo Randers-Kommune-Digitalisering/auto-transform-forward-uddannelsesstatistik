@@ -18,9 +18,9 @@ const Node = {
   "y": 1980,
   "wires": [
     [
-      "77b858f8b9b55d97",
       "b86d486adb62c002",
-      "f32ff0b0accd1c5e"
+      "f32ff0b0accd1c5e",
+      "7eea1c286c83412d"
     ]
   ],
   "_order": 53
@@ -28,12 +28,13 @@ const Node = {
 
 Node.func = async function (node, msg, RED, context, flow, global, env, util, xlsx) {
   const fileName = msg.dataset;
+  const fullFile = fileName + '.xlsx';
   
-  xlsx('inputfile.csv', fileName,
+  xlsx('inputfile.csv', fullFile,
       
       function ()
       {
-          console.log("converted data to file: " + fileName + '.xlsx');
+          console.log("converted data to file: " + fullFile);
       }
   
   );
