@@ -1,20 +1,20 @@
 const Node = {
-  "id": "ac2734ee1d031fee",
+  "id": "b86d486adb62c002",
   "type": "debug",
-  "z": "bbeb8dfaa79c297c",
+  "z": "971a7ae6df987a48",
   "name": "stdout",
   "active": true,
   "tosidebar": true,
   "console": true,
   "tostatus": false,
-  "complete": "{\t    payload.file: \"file deleted\"\t}",
+  "complete": "{\t    filename: \"ready for download\",\t    format: \"xlsx\"\t}",
   "targetType": "jsonata",
   "statusVal": "",
   "statusType": "auto",
-  "x": 720,
-  "y": 260,
+  "x": 860,
+  "y": 1860,
   "wires": [],
-  "_order": 109
+  "_order": 99
 }
 
 module.exports = Node;
