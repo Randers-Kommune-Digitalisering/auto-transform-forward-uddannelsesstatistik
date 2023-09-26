@@ -1,15 +1,15 @@
 const Node = {
-  "id": "244a38ce28968e2f",
+  "id": "f0d91818eeb834fb",
   "type": "change",
-  "z": "bbeb8dfaa79c297c",
+  "z": "971a7ae6df987a48",
   "name": "",
   "rules": [
     {
       "t": "set",
-      "p": "headers",
+      "p": "payload",
       "pt": "msg",
-      "to": "{ \"Content-Type\": \"application/force-download\" }",
-      "tot": "json"
+      "to": "DEV_ENV",
+      "tot": "env"
     }
   ],
   "action": "",
@@ -17,15 +17,14 @@ const Node = {
   "from": "",
   "to": "",
   "reg": false,
-  "x": 1055,
-  "y": 80,
+  "x": 760,
+  "y": 60,
   "wires": [
     [
-      "0d345d6d9f17869b"
+      "b1631c44c8ef942e"
     ]
   ],
-  "l": false,
-  "_order": 141
+  "_order": 123
 }
 
 module.exports = Node;

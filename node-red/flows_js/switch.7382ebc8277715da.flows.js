@@ -3,7 +3,7 @@ const Node = {
   "type": "switch",
   "z": "971a7ae6df987a48",
   "name": "Tjek om der køres \\n i udviklermiljø",
-  "property": "DEV_ENVIROMENT",
+  "property": "DEV_ENV",
   "propertyType": "env",
   "rules": [
     {
