@@ -2,7 +2,7 @@ const Node = {
   "id": "4ff56523274675ec",
   "type": "change",
   "z": "971a7ae6df987a48",
-  "name": "Define card",
+  "name": "Definér data \\n til adaptivt card",
   "rules": [
     {
       "t": "set",
@@ -24,7 +24,7 @@ const Node = {
   "from": "",
   "to": "",
   "reg": false,
-  "x": 470,
+  "x": 480,
   "y": 2200,
   "wires": [
     [

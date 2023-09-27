@@ -7,11 +7,11 @@ const Node = {
   "tosidebar": true,
   "console": true,
   "tostatus": false,
-  "complete": "payload = \"1\" ? \t{\t    filename: \"teams notification sent\",\t    \"url\": card.url\t}\t:\t{\t    filename: \"teams notification error\",\t    \"error\": error\t}",
+  "complete": "payload = \"1\" ? \t{\t    filename: \"teams notification sent\",\t    \"data_url\": card.url\t}\t:\t{\t    filename: \"teams notification error\",\t    \"error\": error\t}",
   "targetType": "jsonata",
   "statusVal": "",
   "statusType": "auto",
-  "x": 1100,
+  "x": 1260,
   "y": 2240,
   "wires": [],
   "_order": 99

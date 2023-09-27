@@ -9,11 +9,11 @@ const Node = {
   "syntax": "mustache",
   "template": "",
   "output": "json",
-  "x": 670,
+  "x": 690,
   "y": 2220,
   "wires": [
     [
-      "1641997916377351"
+      "c0d5842f7eee0aad"
     ]
   ],
   "_order": 97
@@ -21,15 +21,15 @@ const Node = {
 
 Node.template = `
 {
-   "type":"message",
-   "attachments":[
+   "type": "message",
+   "attachments": [
       {
-         "contentType":"application/vnd.microsoft.card.adaptive",
-         "contentUrl":null,
-         "content":{
-            "\$schema":"http://adaptivecards.io/schemas/adaptive-card.json",
-            "type":"AdaptiveCard",
-            "version":"1.2",
+         "contentType": "application/vnd.microsoft.card.adaptive",
+         "contentUrl": null,
+         "content": {
+            "\$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+            "type": "AdaptiveCard",
+            "version": "1.2",
             "body": [
                {
                   "type": "TextBlock",
@@ -39,13 +39,17 @@ Node.template = `
                },
                {
                   "type": "TextBlock",
-                  "text": "25-09-2023",
+                  "text": "{{{card.date}}}",
                   "wrap": true,
-                  "spacing": "none"
+                  "spacing": "None",
+                  "fontType": "Monospace",
+                  "isSubtle": true
                },
                {
                   "type": "TextBlock",
-                  "text": "Der blev fundet ny uddannelsesstatistik, tryk på knappen nedenfor for at starte download.",
+                  "text": "Der blev fundet ny uddannelsesstatistik:",
+                  "style": "columnHeader",
+                  "size": "Default",
                   "wrap": true
                }
             ],

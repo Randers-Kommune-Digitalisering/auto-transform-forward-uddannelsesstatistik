@@ -21,6 +21,14 @@ const Node = {
       "tot": "jsonata"
     },
     {
+      "t": "set",
+      "p": "dataset_schoolYears",
+      "pt": "flow",
+      "to": "payload",
+      "tot": "msg",
+      "dc": true
+    },
+    {
       "t": "delete",
       "p": "startingYear",
       "pt": "msg"
@@ -45,8 +53,8 @@ const Node = {
   "y": 780,
   "wires": [
     [
-      "f23081bda00db1be",
-      "6d43f9cb03b082ce"
+      "6d43f9cb03b082ce",
+      "f23081bda00db1be"
     ]
   ],
   "_order": 61
