@@ -5,14 +5,14 @@ const Node = {
   "g": "139a6a824c08c7ea",
   "name": "Uddannelsesstatistik \\n Connector",
   "x": 740,
-  "y": 1140,
+  "y": 1060,
   "wires": [
     [
       "fae186651921580a",
       "9139aa0801eb75d0"
     ]
   ],
-  "_order": 50
+  "_order": 56
 }
 
 module.exports = Node;

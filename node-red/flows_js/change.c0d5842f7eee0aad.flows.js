@@ -2,6 +2,7 @@ const Node = {
   "id": "c0d5842f7eee0aad",
   "type": "change",
   "z": "971a7ae6df987a48",
+  "g": "c81f2ef6235412e6",
   "name": "Tilføj datasæt til body",
   "rules": [
     {
@@ -31,11 +32,11 @@ const Node = {
   "from": "",
   "to": "",
   "reg": false,
-  "x": 740,
-  "y": 2260,
+  "x": 900,
+  "y": 2140,
   "wires": [
     [
-      "1641997916377351"
+      "c06de234dcee7ea7"
     ]
   ],
   "_order": 121

@@ -2,6 +2,7 @@ const Node = {
   "id": "7382ebc8277715da",
   "type": "switch",
   "z": "971a7ae6df987a48",
+  "g": "c81f2ef6235412e6",
   "name": "Tjek om der køres \\n i udviklermiljø",
   "property": "DEV_ENV",
   "propertyType": "env",
@@ -16,13 +17,13 @@ const Node = {
   "repair": false,
   "outputs": 1,
   "x": 270,
-  "y": 2200,
+  "y": 2140,
   "wires": [
     [
       "4ff56523274675ec"
     ]
   ],
-  "_order": 117
+  "_order": 120
 }
 
 module.exports = Node;

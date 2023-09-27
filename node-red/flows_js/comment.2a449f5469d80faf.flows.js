@@ -5,9 +5,9 @@ const Node = {
   "name": "Konvertér",
   "info": "",
   "x": 580,
-  "y": 1900,
+  "y": 1820,
   "wires": [],
-  "_order": 56
+  "_order": 62
 }
 
 module.exports = Node;

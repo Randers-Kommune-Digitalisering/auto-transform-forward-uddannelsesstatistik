@@ -6,9 +6,9 @@ const Node = {
   "name": "Saml datatræk i flow var",
   "info": "",
   "x": 740,
-  "y": 1320,
+  "y": 1240,
   "wires": [],
-  "_order": 87
+  "_order": 93
 }
 
 module.exports = Node;

@@ -2,6 +2,7 @@ const Node = {
   "id": "46201afe248ef277",
   "type": "template",
   "z": "971a7ae6df987a48",
+  "g": "2ae5f3030a3d5111",
   "name": "Forespørgsel ↓\\n Slet metadata tabel",
   "field": "sql",
   "fieldType": "msg",
@@ -9,14 +10,14 @@ const Node = {
   "syntax": "mustache",
   "template": "",
   "output": "str",
-  "x": 450,
-  "y": 2460,
+  "x": 330,
+  "y": 2500,
   "wires": [
     [
       "2f8cad1aa6b026e3"
     ]
   ],
-  "_order": 107
+  "_order": 110
 }
 
 Node.template = `
