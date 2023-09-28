@@ -37,7 +37,7 @@ const Node = {
       "t": "set",
       "p": "yearBeginsAt",
       "pt": "msg",
-      "to": "01/08",
+      "to": "01/06",
       "tot": "str"
     },
     {
