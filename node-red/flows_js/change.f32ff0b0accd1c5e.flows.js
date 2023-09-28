@@ -2,6 +2,7 @@ const Node = {
   "id": "f32ff0b0accd1c5e",
   "type": "change",
   "z": "971a7ae6df987a48",
+  "g": "7d56a32338a2cffc",
   "name": "",
   "rules": [
     {
@@ -17,12 +18,12 @@ const Node = {
   "from": "",
   "to": "",
   "reg": false,
-  "x": 880,
-  "y": 1980,
+  "x": 1140,
+  "y": 1900,
   "wires": [
     []
   ],
-  "_order": 104
+  "_order": 106
 }
 
 module.exports = Node;

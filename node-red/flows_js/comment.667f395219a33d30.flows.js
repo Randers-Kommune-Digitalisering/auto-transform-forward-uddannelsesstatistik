@@ -5,9 +5,9 @@ const Node = {
   "name": "Begræns datatræk",
   "info": "",
   "x": 710,
-  "y": 960,
+  "y": 880,
   "wires": [],
-  "_order": 74
+  "_order": 79
 }
 
 module.exports = Node;

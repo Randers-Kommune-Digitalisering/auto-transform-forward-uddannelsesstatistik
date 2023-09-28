@@ -5,18 +5,18 @@ const Node = {
   "name": "",
   "props": [],
   "repeat": "",
-  "crontab": "00 07 * * 2",
+  "crontab": "",
   "once": false,
   "onceDelay": "5",
   "topic": "",
-  "x": 130,
-  "y": 240,
+  "x": 150,
+  "y": 140,
   "wires": [
     [
       "f8f955378d43b663"
     ]
   ],
-  "_order": 117
+  "_order": 112
 }
 
 module.exports = Node;

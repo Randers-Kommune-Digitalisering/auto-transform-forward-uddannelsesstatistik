@@ -6,9 +6,9 @@ const Node = {
   "name": "Hent metadata",
   "info": "",
   "x": 260,
-  "y": 380,
+  "y": 300,
   "wires": [],
-  "_order": 63
+  "_order": 68
 }
 
 module.exports = Node;

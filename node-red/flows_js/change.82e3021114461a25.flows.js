@@ -17,8 +17,16 @@ const Node = {
       "t": "set",
       "p": "payload",
       "pt": "msg",
-      "to": "(\t    /* Find indeværende år */\t    $currentYear := $millis() ~> $fromMillis(\"[Y0001]\") ~> $number;\t\t    /* Fjern 1 år hvis det nye skoleår ikke er startet i år */\t    $currentYear := $millis() > ( yearBeginsAt ~> $toMillis(yearBeginsAt_format) )\t                    ? $currentYear : $currentYear-1;\t\t    /* Skab array af årstal */\t    [startingYear..$currentYear]\t    \t    /* Ændr hvert årstal til skoleår (\"årstal/årstal+1\") */\t    ~> $map( function($v, $k)\t    {\t        [ $v ~> $string, $v+1 ~> $string ] ~> $join(\"/\")\t    })\t)",
+      "to": "(\t    /* Find indeværende år */\t    $currentYear := $millis() ~> $fromMillis(\"[Y0001]\") ~> $number;\t\t    /* Fjern 1 år hvis det nye skoleår ikke er startet i år */\t    $currentYear := $millis() > ( yearBeginsAt ~> $toMillis(yearBeginsAt_format) )\t                    ? $currentYear-1 : $currentYear-2;\t\t    /* Skab array af årstal */\t    [startingYear..$currentYear]\t    \t    /* Ændr hvert årstal til skoleår (\"årstal/årstal+1\") */\t    ~> $map( function($v, $k)\t    {\t        [ $v ~> $string, $v+1 ~> $string ] ~> $join(\"/\")\t    })\t)",
       "tot": "jsonata"
+    },
+    {
+      "t": "set",
+      "p": "dataset_schoolYears",
+      "pt": "flow",
+      "to": "payload",
+      "tot": "msg",
+      "dc": true
     },
     {
       "t": "delete",
@@ -42,14 +50,14 @@ const Node = {
   "to": "",
   "reg": false,
   "x": 580,
-  "y": 780,
+  "y": 700,
   "wires": [
     [
-      "f23081bda00db1be",
-      "6d43f9cb03b082ce"
+      "6d43f9cb03b082ce",
+      "f23081bda00db1be"
     ]
   ],
-  "_order": 61
+  "_order": 66
 }
 
 module.exports = Node;

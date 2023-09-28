@@ -5,9 +5,9 @@ const Node = {
   "name": "Split per skoleår til datatræk",
   "info": "",
   "x": 460,
-  "y": 960,
+  "y": 880,
   "wires": [],
-  "_order": 72
+  "_order": 77
 }
 
 module.exports = Node;
