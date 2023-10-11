@@ -1,20 +1,20 @@
 const Node = {
-  "id": "ac2734ee1d031fee",
+  "id": "0dab221357eab341",
   "type": "debug",
-  "z": "bbeb8dfaa79c297c",
-  "name": "stdout",
+  "z": "971a7ae6df987a48",
+  "name": "ERROR",
   "active": true,
   "tosidebar": true,
   "console": true,
   "tostatus": false,
-  "complete": "{\t    payload.file: \"file deleted\"\t}",
+  "complete": "{ \"error\": error.message, \"node\": error.source\t}",
   "targetType": "jsonata",
   "statusVal": "",
   "statusType": "auto",
-  "x": 840,
-  "y": 260,
+  "x": 1190,
+  "y": 340,
   "wires": [],
-  "_order": 132
+  "_order": 123
 }
 
 module.exports = Node;
