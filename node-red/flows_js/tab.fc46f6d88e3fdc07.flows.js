@@ -1,7 +1,7 @@
 const Node = {
   "id": "fc46f6d88e3fdc07",
   "type": "tab",
-  "label": "Reset endpoint",
+  "label": "Reset DB",
   "disabled": false,
   "info": "",
   "env": [],
