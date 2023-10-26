@@ -1,5 +1,5 @@
 const Node = {
-  "id": "ec82969d39312929",
+  "id": "c25d8790aa219dbd",
   "type": "debug",
   "z": "971a7ae6df987a48",
   "name": "debug 3",
@@ -7,14 +7,13 @@ const Node = {
   "tosidebar": true,
   "console": false,
   "tostatus": false,
-  "complete": "$flowContext(\"data\")",
-  "targetType": "jsonata",
+  "complete": "false",
   "statusVal": "",
   "statusType": "auto",
-  "x": 1080,
-  "y": 1320,
+  "x": 920,
+  "y": 200,
   "wires": [],
-  "_order": 124
+  "_order": 125
 }
 
 module.exports = Node;
