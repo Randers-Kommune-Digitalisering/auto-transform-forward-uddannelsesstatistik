@@ -2,6 +2,7 @@ const Node = {
   "id": "925bad72492cd85e",
   "type": "change",
   "z": "971a7ae6df987a48",
+  "d": true,
   "g": "7d56a32338a2cffc",
   "name": "Parse indikatorsvar \\n til float",
   "rules": [
@@ -9,7 +10,7 @@ const Node = {
       "t": "set",
       "p": "payload",
       "pt": "msg",
-      "to": "payload ~> | $ | {\t    \"Indikatorsvar\": Indikatorsvar ~> $replace(\",\", \".\") ~> $number\t} |",
+      "to": "payload ~> | $ | {\t    \"Indikatorsvar\": Indikatorsvar ~> $replace(',', '.') ~> $number()\t} |",
       "tot": "jsonata"
     }
   ],
