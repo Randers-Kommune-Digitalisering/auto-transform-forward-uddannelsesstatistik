@@ -1,14 +1,14 @@
 const Node = {
-  "id": "34dda33099953e22",
+  "id": "90386a73cff3af9a",
   "type": "change",
-  "z": "bbeb8dfaa79c297c",
+  "z": "971a7ae6df987a48",
   "name": "",
   "rules": [
     {
       "t": "set",
-      "p": "filename",
+      "p": "sql",
       "pt": "msg",
-      "to": "payload.file & \".xlsx\"",
+      "to": "\"DROP TABLE \" & $flowContext(\"metadata_tablename\")",
       "tot": "jsonata"
     }
   ],
@@ -17,16 +17,15 @@ const Node = {
   "from": "",
   "to": "",
   "reg": false,
-  "x": 450,
-  "y": 100,
+  "x": 580,
+  "y": 180,
   "wires": [
     [
-      "9b76c31e7766b0c7",
-      "ca701ca45c5ccde1",
-      "778e492529d71c57"
+      "d45499f85e38c202",
+      "15dab49ad493933d"
     ]
   ],
-  "_order": 131
+  "_order": 124
 }
 
 module.exports = Node;
