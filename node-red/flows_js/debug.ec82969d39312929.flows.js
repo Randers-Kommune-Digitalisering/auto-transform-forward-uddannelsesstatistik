@@ -1,20 +1,20 @@
 const Node = {
-  "id": "ac2734ee1d031fee",
+  "id": "ec82969d39312929",
   "type": "debug",
-  "z": "bbeb8dfaa79c297c",
-  "name": "stdout",
+  "z": "971a7ae6df987a48",
+  "name": "debug 3",
   "active": true,
   "tosidebar": true,
-  "console": true,
+  "console": false,
   "tostatus": false,
-  "complete": "{\t    payload.file: \"file deleted\"\t}",
+  "complete": "$flowContext(\"data\")",
   "targetType": "jsonata",
   "statusVal": "",
   "statusType": "auto",
-  "x": 840,
-  "y": 260,
+  "x": 1080,
+  "y": 1320,
   "wires": [],
-  "_order": 133
+  "_order": 124
 }
 
 module.exports = Node;
