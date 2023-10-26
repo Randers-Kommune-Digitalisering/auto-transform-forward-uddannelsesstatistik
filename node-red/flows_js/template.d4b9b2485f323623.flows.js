@@ -25,7 +25,7 @@ Node.template = `
     "[Skoleår].[Skoleår].[Skoleår]": "År",
     "[Klassetrin].[Skoletrin].[Skoletrin]": "Trin",
     "[Institution].[Institution].[Institution]": "Skolenavn",
-    "[Indikatorsvar].[Indikatorsvar].[Indikatorsvar]": "Indikator",
+    "[Indikator].[Indikator].[Indikator]": "Indikator",
     "Indikatorsvar": "Indikatorsvar"
 }
 `
