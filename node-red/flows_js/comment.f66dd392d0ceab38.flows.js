@@ -6,9 +6,9 @@ const Node = {
   "name": "Skab liste til opbevaring af filnavne",
   "info": "",
   "x": 240,
-  "y": 540,
+  "y": 840,
   "wires": [],
-  "_order": 144
+  "_order": 175
 }
 
 module.exports = Node;

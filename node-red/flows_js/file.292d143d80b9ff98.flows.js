@@ -2,6 +2,7 @@ const Node = {
   "id": "292d143d80b9ff98",
   "type": "file",
   "z": "bbeb8dfaa79c297c",
+  "d": true,
   "name": "",
   "filename": "filename",
   "filenameType": "msg",
@@ -9,14 +10,14 @@ const Node = {
   "createDir": false,
   "overwriteFile": "delete",
   "encoding": "none",
-  "x": 670,
-  "y": 260,
+  "x": 770,
+  "y": 500,
   "wires": [
     [
       "ac2734ee1d031fee"
     ]
   ],
-  "_order": 131
+  "_order": 165
 }
 
 module.exports = Node;

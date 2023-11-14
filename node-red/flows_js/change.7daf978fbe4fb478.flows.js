@@ -2,6 +2,7 @@ const Node = {
   "id": "7daf978fbe4fb478",
   "type": "change",
   "z": "bbeb8dfaa79c297c",
+  "d": true,
   "name": "delete file from list",
   "rules": [
     {
@@ -17,14 +18,14 @@ const Node = {
   "from": "",
   "to": "",
   "reg": false,
-  "x": 450,
-  "y": 260,
+  "x": 550,
+  "y": 500,
   "wires": [
     [
       "292d143d80b9ff98"
     ]
   ],
-  "_order": 138
+  "_order": 171
 }
 
 module.exports = Node;

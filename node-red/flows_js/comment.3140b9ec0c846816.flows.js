@@ -6,9 +6,9 @@ const Node = {
   "name": "Skab adaptivt card",
   "info": "",
   "x": 270,
-  "y": 2080,
+  "y": 2720,
   "wires": [],
-  "_order": 62
+  "_order": 72
 }
 
 module.exports = Node;

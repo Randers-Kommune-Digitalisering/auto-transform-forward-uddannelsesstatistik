@@ -46,6 +46,21 @@ const Node = {
       "pt": "msg",
       "to": "[D01]/[M01]",
       "tot": "str"
+    },
+    {
+      "t": "set",
+      "p": "files_tablename",
+      "pt": "flow",
+      "to": "uddannelsesstatistik_files",
+      "tot": "str"
+    },
+    {
+      "t": "set",
+      "p": "files_tablename",
+      "pt": "global",
+      "to": "files_tablename",
+      "tot": "flow",
+      "dc": true
     }
   ],
   "action": "",
@@ -60,7 +75,7 @@ const Node = {
       "d4b9b2485f323623"
     ]
   ],
-  "_order": 67
+  "_order": 77
 }
 
 module.exports = Node;

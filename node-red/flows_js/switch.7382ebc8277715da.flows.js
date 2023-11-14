@@ -8,22 +8,29 @@ const Node = {
   "propertyType": "env",
   "rules": [
     {
-      "t": "neq",
+      "t": "eq",
       "v": "true",
       "vt": "str"
+    },
+    {
+      "t": "else"
     }
   ],
   "checkall": "true",
   "repair": false,
-  "outputs": 1,
-  "x": 270,
-  "y": 2140,
+  "outputs": 2,
+  "x": 450,
+  "y": 2900,
   "wires": [
     [
-      "4ff56523274675ec"
+      "2fe32dfadf70ba55"
+    ],
+    [
+      "2fe32dfadf70ba55",
+      "5e34426a181a6ec4"
     ]
   ],
-  "_order": 114
+  "_order": 131
 }
 
 module.exports = Node;

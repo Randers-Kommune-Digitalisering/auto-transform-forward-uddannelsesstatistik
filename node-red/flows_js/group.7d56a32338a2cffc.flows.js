@@ -17,7 +17,6 @@ const Node = {
     "99abe64535974f35",
     "b86d486adb62c002",
     "f32ff0b0accd1c5e",
-    "7eea1c286c83412d",
     "9bb2c786a080fdf7",
     "2a449f5469d80faf",
     "925bad72492cd85e",
@@ -26,7 +25,7 @@ const Node = {
   "x": 154,
   "y": 1779,
   "w": 1092,
-  "h": 202,
+  "h": 174,
   "_order": 12
 }
 
