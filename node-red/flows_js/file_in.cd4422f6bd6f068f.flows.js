@@ -4,21 +4,21 @@ const Node = {
   "z": "971a7ae6df987a48",
   "g": "547b60b86161002f",
   "name": "",
-  "filename": "xlsxfilename",
+  "filename": "filename",
   "filenameType": "msg",
-  "format": "",
+  "format": "utf8",
   "chunk": false,
   "sendError": false,
   "encoding": "none",
   "allProps": false,
-  "x": 520,
+  "x": 240,
   "y": 2140,
   "wires": [
     [
       "ede7724eb628b884"
     ]
   ],
-  "_order": 134
+  "_order": 131
 }
 
 module.exports = Node;

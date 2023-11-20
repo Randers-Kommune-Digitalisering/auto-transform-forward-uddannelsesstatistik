@@ -1,21 +1,20 @@
 const Node = {
-  "id": "ac2734ee1d031fee",
+  "id": "ec9b2424b6df717f",
   "type": "debug",
   "z": "bbeb8dfaa79c297c",
-  "d": true,
   "name": "stdout",
   "active": true,
   "tosidebar": true,
   "console": true,
   "tostatus": false,
-  "complete": "{\t    payload.file: \"file deleted\"\t}",
+  "complete": "{\t    payload.file: \"file download initiated\",\t    \"fileExists\": false\t}",
   "targetType": "jsonata",
   "statusVal": "",
   "statusType": "auto",
-  "x": 960,
-  "y": 500,
+  "x": 1240,
+  "y": 280,
   "wires": [],
-  "_order": 166
+  "_order": 177
 }
 
 module.exports = Node;

@@ -8,14 +8,14 @@ const Node = {
   "tosidebar": true,
   "console": true,
   "tostatus": false,
-  "complete": "{\t    filename: \"ready for download\",\t    format: \"xlsx\"\t}",
+  "complete": "{\t    filename: \"ready for download\",\t    format: \"csv\"\t}",
   "targetType": "jsonata",
   "statusVal": "",
   "statusType": "auto",
-  "x": 1120,
+  "x": 1020,
   "y": 1860,
   "wires": [],
-  "_order": 113
+  "_order": 110
 }
 
 module.exports = Node;

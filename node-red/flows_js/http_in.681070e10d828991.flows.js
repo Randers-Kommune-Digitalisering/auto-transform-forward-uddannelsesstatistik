@@ -3,7 +3,7 @@ const Node = {
   "type": "http in",
   "z": "bbeb8dfaa79c297c",
   "name": "",
-  "url": "/uddannelsesstatistik.xlsx",
+  "url": "/uddannelsesstatistik.csv",
   "method": "get",
   "upload": false,
   "swaggerDoc": "",
@@ -14,7 +14,7 @@ const Node = {
       "34dda33099953e22"
     ]
   ],
-  "_order": 158
+  "_order": 155
 }
 
 module.exports = Node;

@@ -8,7 +8,7 @@ const Node = {
       "t": "set",
       "p": "filename",
       "pt": "msg",
-      "to": "payload.file & \".xlsx\"",
+      "to": "payload.file & \".csv\"",
       "tot": "jsonata"
     }
   ],
@@ -21,11 +21,10 @@ const Node = {
   "y": 100,
   "wires": [
     [
-      "9b76c31e7766b0c7",
       "ca701ca45c5ccde1"
     ]
   ],
-  "_order": 161
+  "_order": 158
 }
 
 module.exports = Node;

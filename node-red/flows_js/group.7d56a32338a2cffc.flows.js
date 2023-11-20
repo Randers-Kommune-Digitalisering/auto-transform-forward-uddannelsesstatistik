@@ -11,20 +11,18 @@ const Node = {
   },
   "nodes": [
     "c36ab7a064dc10c7",
-    "4b1e76de258feceb",
-    "5007b613c71baf2e",
     "90df6f10ae56a24f",
     "99abe64535974f35",
     "b86d486adb62c002",
     "f32ff0b0accd1c5e",
     "9bb2c786a080fdf7",
-    "2a449f5469d80faf",
     "925bad72492cd85e",
-    "72c9b69784b2daf8"
+    "72c9b69784b2daf8",
+    "316f0a52c8a24b20"
   ],
   "x": 154,
   "y": 1779,
-  "w": 1092,
+  "w": 972,
   "h": 174,
   "_order": 12
 }

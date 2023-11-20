@@ -1,23 +1,22 @@
 const Node = {
-  "id": "292d143d80b9ff98",
+  "id": "10b96e33f9241f2d",
   "type": "file",
   "z": "bbeb8dfaa79c297c",
-  "d": true,
   "name": "",
   "filename": "filename",
-  "filenameType": "msg",
-  "appendNewline": true,
+  "filenameType": "jsonata",
+  "appendNewline": false,
   "createDir": false,
-  "overwriteFile": "delete",
+  "overwriteFile": "true",
   "encoding": "none",
-  "x": 770,
-  "y": 500,
+  "x": 960,
+  "y": 240,
   "wires": [
     [
-      "ac2734ee1d031fee"
+      "244a38ce28968e2f"
     ]
   ],
-  "_order": 165
+  "_order": 175
 }
 
 module.exports = Node;
