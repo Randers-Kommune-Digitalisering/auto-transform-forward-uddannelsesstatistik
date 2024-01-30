@@ -8,7 +8,7 @@ const Node = {
       "t": "set",
       "p": "headers",
       "pt": "msg",
-      "to": "{ \"Content-Type\": \"application/force-download\" }",
+      "to": "{\"Content-Disposition\":\"attachment;filename=uddannelsesstatistik.csv\"}",
       "tot": "json"
     }
   ],
