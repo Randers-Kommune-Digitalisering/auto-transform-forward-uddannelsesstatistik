@@ -2,6 +2,7 @@ const Node = {
   "id": "7eea1c286c83412d",
   "type": "delay",
   "z": "971a7ae6df987a48",
+  "d": true,
   "g": "7d56a32338a2cffc",
   "name": "",
   "pauseType": "delay",
@@ -23,7 +24,7 @@ const Node = {
       "77b858f8b9b55d97"
     ]
   ],
-  "_order": 112
+  "_order": 114
 }
 
 module.exports = Node;

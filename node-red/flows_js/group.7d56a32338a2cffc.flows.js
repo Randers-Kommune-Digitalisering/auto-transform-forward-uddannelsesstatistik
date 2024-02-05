@@ -2,7 +2,7 @@ const Node = {
   "id": "7d56a32338a2cffc",
   "type": "group",
   "z": "971a7ae6df987a48",
-  "name": "Konvertér data til xslx-fil",
+  "name": "Konvertér data til csv",
   "style": {
     "stroke": "none",
     "label": true,
@@ -21,7 +21,9 @@ const Node = {
     "9bb2c786a080fdf7",
     "2a449f5469d80faf",
     "925bad72492cd85e",
-    "72c9b69784b2daf8"
+    "72c9b69784b2daf8",
+    "a27ebc4ff41a7e29",
+    "647c9a6ece46243d"
   ],
   "x": 154,
   "y": 1779,

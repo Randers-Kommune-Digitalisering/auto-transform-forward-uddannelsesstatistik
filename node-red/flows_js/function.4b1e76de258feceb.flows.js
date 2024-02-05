@@ -2,6 +2,7 @@ const Node = {
   "id": "4b1e76de258feceb",
   "type": "function",
   "z": "971a7ae6df987a48",
+  "d": true,
   "g": "7d56a32338a2cffc",
   "name": "Konvertér til xlsx",
   "func": "",
@@ -24,7 +25,7 @@ const Node = {
       "7eea1c286c83412d"
     ]
   ],
-  "_order": 58
+  "_order": 60
 }
 
 Node.func = async function (node, msg, RED, context, flow, global, env, util, xlsx) {

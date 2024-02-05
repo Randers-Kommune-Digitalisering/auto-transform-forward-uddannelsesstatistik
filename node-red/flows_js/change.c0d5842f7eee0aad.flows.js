@@ -2,6 +2,7 @@ const Node = {
   "id": "c0d5842f7eee0aad",
   "type": "change",
   "z": "971a7ae6df987a48",
+  "d": true,
   "g": "c81f2ef6235412e6",
   "name": "Tilføj datasæt til body",
   "rules": [
@@ -33,13 +34,13 @@ const Node = {
   "to": "",
   "reg": false,
   "x": 900,
-  "y": 2140,
+  "y": 2240,
   "wires": [
     [
       "c06de234dcee7ea7"
     ]
   ],
-  "_order": 115
+  "_order": 117
 }
 
 module.exports = Node;

@@ -2,6 +2,7 @@ const Node = {
   "id": "ea6592edc9bd5752",
   "type": "template",
   "z": "971a7ae6df987a48",
+  "d": true,
   "g": "c81f2ef6235412e6",
   "name": "Body",
   "field": "payload",
@@ -11,13 +12,13 @@ const Node = {
   "template": "",
   "output": "json",
   "x": 690,
-  "y": 2140,
+  "y": 2240,
   "wires": [
     [
       "c0d5842f7eee0aad"
     ]
   ],
-  "_order": 101
+  "_order": 103
 }
 
 Node.template = `

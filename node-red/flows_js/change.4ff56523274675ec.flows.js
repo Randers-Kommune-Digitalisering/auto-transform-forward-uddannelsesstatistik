@@ -2,6 +2,7 @@ const Node = {
   "id": "4ff56523274675ec",
   "type": "change",
   "z": "971a7ae6df987a48",
+  "d": true,
   "g": "c81f2ef6235412e6",
   "name": "Definér data \\n til adaptivt card",
   "rules": [
@@ -26,13 +27,13 @@ const Node = {
   "to": "",
   "reg": false,
   "x": 500,
-  "y": 2140,
+  "y": 2240,
   "wires": [
     [
       "ea6592edc9bd5752"
     ]
   ],
-  "_order": 102
+  "_order": 104
 }
 
 module.exports = Node;
