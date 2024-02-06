@@ -1,21 +1,21 @@
 const Node = {
-  "id": "d85e8f04d9393ba5",
+  "id": "397353d62ed0a54e",
   "type": "debug",
   "z": "971a7ae6df987a48",
-  "g": "139a6a824c08c7ea",
-  "name": "Skoleår",
-  "active": false,
+  "g": "27596e92bf01726a",
+  "name": "custom-data res",
+  "active": true,
   "tosidebar": true,
-  "console": false,
+  "console": true,
   "tostatus": false,
-  "complete": "schoolYear",
+  "complete": "payload",
   "targetType": "msg",
   "statusVal": "",
   "statusType": "auto",
-  "x": 520,
-  "y": 1100,
+  "x": 1310,
+  "y": 1720,
   "wires": [],
-  "_order": 83
+  "_order": 129
 }
 
 module.exports = Node;

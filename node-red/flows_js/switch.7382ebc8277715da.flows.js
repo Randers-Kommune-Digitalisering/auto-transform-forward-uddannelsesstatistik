@@ -2,6 +2,7 @@ const Node = {
   "id": "7382ebc8277715da",
   "type": "switch",
   "z": "971a7ae6df987a48",
+  "d": true,
   "g": "c81f2ef6235412e6",
   "name": "Tjek om der køres \\n i udviklermiljø",
   "property": "DEV_ENV",
@@ -23,7 +24,7 @@ const Node = {
       "4ff56523274675ec"
     ]
   ],
-  "_order": 114
+  "_order": 116
 }
 
 module.exports = Node;

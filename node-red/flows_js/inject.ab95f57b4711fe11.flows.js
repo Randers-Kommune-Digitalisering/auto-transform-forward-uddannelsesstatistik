@@ -9,7 +9,7 @@ const Node = {
   "once": true,
   "onceDelay": "5",
   "topic": "",
-  "x": 65,
+  "x": 45,
   "y": 80,
   "wires": [
     [
@@ -17,7 +17,7 @@ const Node = {
     ]
   ],
   "l": false,
-  "_order": 64
+  "_order": 66
 }
 
 module.exports = Node;
