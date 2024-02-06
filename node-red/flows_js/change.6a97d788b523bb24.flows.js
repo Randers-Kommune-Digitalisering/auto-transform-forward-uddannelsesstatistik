@@ -33,6 +33,13 @@ const Node = {
       "pt": "msg",
       "to": "application/json",
       "tot": "str"
+    },
+    {
+      "t": "set",
+      "p": "headers.overwrite",
+      "pt": "msg",
+      "to": "true",
+      "tot": "str"
     }
   ],
   "action": "",

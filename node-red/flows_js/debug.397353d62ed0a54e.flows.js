@@ -3,7 +3,7 @@ const Node = {
   "type": "debug",
   "z": "971a7ae6df987a48",
   "g": "27596e92bf01726a",
-  "name": "custom data connector res",
+  "name": "custom-data res",
   "active": true,
   "tosidebar": true,
   "console": true,
@@ -12,7 +12,7 @@ const Node = {
   "targetType": "full",
   "statusVal": "",
   "statusType": "auto",
-  "x": 1340,
+  "x": 1310,
   "y": 1720,
   "wires": [],
   "_order": 133
