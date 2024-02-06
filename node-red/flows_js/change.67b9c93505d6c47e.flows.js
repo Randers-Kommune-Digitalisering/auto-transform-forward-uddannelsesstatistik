@@ -2,7 +2,7 @@ const Node = {
   "id": "67b9c93505d6c47e",
   "type": "change",
   "z": "971a7ae6df987a48",
-  "name": "Sæt flow værdier",
+  "name": "Sæt prefix",
   "rules": [
     {
       "t": "set",
@@ -17,7 +17,7 @@ const Node = {
   "from": "",
   "to": "",
   "reg": false,
-  "x": 390,
+  "x": 370,
   "y": 100,
   "wires": [
     [
