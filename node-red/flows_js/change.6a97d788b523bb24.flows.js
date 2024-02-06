@@ -22,16 +22,16 @@ const Node = {
     },
     {
       "t": "set",
-      "p": "headers.overwrite",
+      "p": "headers.content-type",
       "pt": "msg",
-      "to": "true",
+      "to": "application/json",
       "tot": "str"
     },
     {
       "t": "set",
-      "p": "headers.content-type",
+      "p": "headers[\"overwrite\"]",
       "pt": "msg",
-      "to": "application/json",
+      "to": "true",
       "tot": "str"
     }
   ],
