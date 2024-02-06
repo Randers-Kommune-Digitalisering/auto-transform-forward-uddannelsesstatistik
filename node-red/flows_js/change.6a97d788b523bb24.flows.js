@@ -22,6 +22,13 @@ const Node = {
     },
     {
       "t": "set",
+      "p": "headers",
+      "pt": "msg",
+      "to": "{}",
+      "tot": "json"
+    },
+    {
+      "t": "set",
       "p": "headers.content-type",
       "pt": "msg",
       "to": "application/json",
