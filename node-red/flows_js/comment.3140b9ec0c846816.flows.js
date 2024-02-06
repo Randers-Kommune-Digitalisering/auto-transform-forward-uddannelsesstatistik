@@ -7,7 +7,7 @@ const Node = {
   "name": "Skab adaptivt card",
   "info": "",
   "x": 270,
-  "y": 2180,
+  "y": 2080,
   "wires": [],
   "_order": 64
 }
