@@ -12,34 +12,31 @@ subgraph  Datatransformation
 T
 end
 
-subgraph  Aflevér data
+subgraph  Custom data connector
 L2
 end
 
-META[(Lokal \n metadata)]
+META[[Cron]]
 ---  API>Uddannelsesstatistik]
--->  E[-\nNy data\n-]
 -->  T(Datafiltrering og \n-transformering)
--->  L[(Opdater \n metadata)]
---> L2[[Send data]]
+--> L2[[Indlæs data]]
 ```
 ### Beskrivelse
 
 Automatiseringsløsningen er opbygget som løst koblet arkitektur hvor data styres igennem en række komponenter der er simple at vedligeholde og udskifte. 
 
-- **Først kontrolleres lokal metadata op mod aktuel dato** 
-	- Her kontrolleres det om seneste succesfulde datatræk var i indeværende eller sidste dataperiode
+- **Kører hvert kvartal** 
+	- Beregner dataperioder siden start tidspunkt
 - **Der skabes ét, eller flere API-kald til Uddannelsesstatistik**
-	- Der skabes ét API-kald for hver manglende dataperiode
-- **Ny data hentes** (såfremt data eksisterer)
+	- Der skabes ét API-kald for hver dataperiode
+- **Data hentes** (såfremt data eksisterer)
 - **Data transformeres efter datatrækkets opsætning**
 	- Data filtreres og kolonner omdøbes
-- **Lokal metadata opdateres**
-	- Metadataene indeholder info vedr. seneste datatræk (periode, antal rækker i datasæt, timestamps)
-- **Ny data afleveres til kontaktperson** 
+- **Ny data afleveres til custom data connector** 
 
 ### Afhængigheder
-Kommer snart ...
+* [custom-data-connector](https://github.com/Randers-Kommune-Digitalisering/custom-data-connector)
+* [uddannelsesstatistik.dk](https://uddannelsesstatistik.dk)
 
 ### Ressourcer
 Kommer snart ...
