@@ -5,8 +5,8 @@ const Node = {
   "name": "",
   "scope": null,
   "uncaught": false,
-  "x": 1000,
-  "y": 120,
+  "x": 800,
+  "y": 40,
   "wires": [
     [
       "bbf18cfabbf2de8c"
